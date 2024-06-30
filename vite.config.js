@@ -9,8 +9,7 @@ export default defineConfig({
     environment: "jsdom",
     setupFiles: ["./vitest-setup.js"],
     fakeTimers: {
-      shouldAdvanceTime: true,
-      advanceTimeDelta: 500
+      shouldAdvanceTime: true
     }
   }
 })
